@@ -1,0 +1,39 @@
+.Expand {
+    font-size: 80px ; 
+    font-family: "karol-sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    transition: font-size 250ms ease,tranform 250ms ease;
+}
+.Expand:hover{
+    font-size: 200px;
+    transform: matrix(360deg);
+
+}
+.Flip-Batlow{
+    font-size: 80px;
+    font-family: 'Barlow', sans-serif;
+}
+.Flip-Batlow:hover{
+    font-size: 200px;
+    transform: rotate(180deg);
+}
+@font-face {
+    font-family: 'Bespoke';
+    src: url('fonts/Bespoke-rp4p88YSW6.eot');
+    src: url('fonts/Bespoke-rp4p88YSW6.eot?#iefix') format('embedded-opentype'),
+       url('fonts/Bespoke-rp4p88YSW6.woff') format('woff'),
+       url('fonts/Bespoke-rp4p88YSW6.ttf') format('truetype'),
+       url('fonts/Bespoke-rp4p88YSW6.svg#Bespoke-rp4p88YSW6') format('svg');
+  }
+
+  .Scale-bespoke{
+font-size: 80px;
+ font-family: 'Bespoke',sans-serif;
+
+  }
+  .Scale-bespoke:hover{
+    font-size:200px;
+    transform: scale(1.7, 6);
+    
+  }
