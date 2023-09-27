@@ -1,0 +1,1084 @@
+.end {
+  background-color: rgba(255, 255, 255, 1);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.end .div {
+  background-color: rgba(255, 255, 255, 1);
+  overflow: hidden;
+  background: linear-gradient(
+    180deg,
+    rgb(17.61, 43.63, 74.16) 19.7%,
+    rgba(12.59, 31.17, 52.99, 0.71) 53.18%,
+    rgba(0, 0, 0, 0) 93.65%
+  );
+  width: 1444px;
+  height: 1787px;
+  position: relative;
+}
+
+.end .overlap {
+  position: absolute;
+  width: 1522px;
+  height: 1771px;
+  top: 176px;
+  left: -69px;
+}
+
+.end .overlap-group {
+  position: absolute;
+  width: 1522px;
+  height: 1771px;
+  top: 0;
+  left: 0;
+}
+
+.end .rectangle {
+  position: absolute;
+  width: 95px;
+  height: 135px;
+  top: 1444px;
+  left: 107px;
+  background-color: #000000;
+}
+
+.end .img {
+  position: absolute;
+  width: 73px;
+  height: 298px;
+  top: 1276px;
+  left: 275px;
+}
+
+.end .rectangle-2 {
+  position: absolute;
+  width: 69px;
+  height: 179px;
+  top: 1405px;
+  left: 225px;
+  background-color: #000000;
+}
+
+.end .rectangle-3 {
+  position: absolute;
+  width: 122px;
+  height: 269px;
+  top: 1326px;
+  left: 353px;
+  background-color: #000000;
+}
+
+.end .rectangle-4 {
+  position: absolute;
+  width: 122px;
+  height: 102px;
+  top: 1472px;
+  left: 480px;
+  background-color: #000000;
+}
+
+.end .rectangle-5 {
+  position: absolute;
+  width: 104px;
+  height: 63px;
+  top: 1440px;
+  left: 489px;
+  background-color: #000000;
+}
+
+.end .rectangle-6 {
+  position: absolute;
+  width: 89px;
+  height: 63px;
+  top: 1415px;
+  left: 496px;
+  background-color: #000000;
+}
+
+.end .rectangle-7 {
+  position: absolute;
+  width: 1513px;
+  height: 211px;
+  top: 1560px;
+  left: 0;
+  background-color: #000000;
+}
+
+.end .rectangle-8 {
+  position: absolute;
+  width: 15px;
+  height: 14px;
+  top: 946px;
+  left: 136px;
+  background-color: #e7e027;
+}
+
+.end .group {
+  position: absolute;
+  width: 577px;
+  height: 783px;
+  top: 125px;
+  left: 437px;
+}
+
+.end .group-2 {
+  position: absolute;
+  width: 749px;
+  height: 771px;
+  top: 136px;
+  left: 698px;
+}
+
+.end .group-3 {
+  position: absolute;
+  width: 1279px;
+  height: 251px;
+  top: 860px;
+  left: 107px;
+}
+
+.end .rectangle-9 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  top: 1282px;
+  left: 333px;
+  background-color: #d9d9d9;
+}
+
+.end .rectangle-10 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  top: 1282px;
+  left: 320px;
+  background-color: #d9d9d9;
+}
+
+.end .rectangle-11 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  top: 1282px;
+  left: 307px;
+  background-color: #d9d9d9;
+}
+
+.end .rectangle-12 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  top: 1282px;
+  left: 294px;
+  background-color: #d9d9d9;
+}
+
+.end .rectangle-13 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  top: 1282px;
+  left: 281px;
+  background-color: #d9d9d9;
+}
+
+.end .group-4 {
+  position: absolute;
+  width: 60px;
+  height: 8px;
+  top: 1410px;
+  left: 230px;
+}
+
+.end .rectangle-14 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  top: 0;
+  left: 52px;
+  background-color: #d9d9d9;
+}
+
+.end .rectangle-15 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  top: 0;
+  left: 39px;
+  background-color: #d9d9d9;
+}
+
+.end .rectangle-16 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  top: 0;
+  left: 26px;
+  background-color: #d9d9d9;
+}
+
+.end .rectangle-17 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  top: 0;
+  left: 13px;
+  background-color: #d9d9d9;
+}
+
+.end .rectangle-18 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  top: 0;
+  left: 0;
+  background-color: #d9d9d9;
+}
+
+.end .group-5 {
+  position: absolute;
+  width: 60px;
+  height: 8px;
+  top: 1424px;
+  left: 230px;
+}
+
+.end .group-6 {
+  position: absolute;
+  width: 60px;
+  height: 8px;
+  top: 1438px;
+  left: 230px;
+}
+
+.end .group-7 {
+  position: absolute;
+  width: 60px;
+  height: 8px;
+  top: 1452px;
+  left: 230px;
+}
+
+.end .group-8 {
+  position: absolute;
+  width: 60px;
+  height: 8px;
+  top: 1466px;
+  left: 230px;
+}
+
+.end .group-9 {
+  position: absolute;
+  width: 60px;
+  height: 8px;
+  top: 1480px;
+  left: 230px;
+}
+
+.end .group-10 {
+  position: absolute;
+  width: 106px;
+  height: 11px;
+  top: 1332px;
+  left: 361px;
+}
+
+.end .rectangle-19 {
+  width: 14px;
+  height: 11px;
+  left: 92px;
+  position: absolute;
+  top: 0;
+  background-color: #d9d9d9;
+}
+
+.end .rectangle-20 {
+  position: absolute;
+  width: 14px;
+  height: 11px;
+  top: 0;
+  left: 69px;
+  background-color: #d9d9d9;
+}
+
+.end .rectangle-21 {
+  position: absolute;
+  width: 14px;
+  height: 11px;
+  top: 0;
+  left: 46px;
+  background-color: #d9d9d9;
+}
+
+.end .rectangle-22 {
+  position: absolute;
+  width: 14px;
+  height: 11px;
+  top: 0;
+  left: 23px;
+  background-color: #d9d9d9;
+}
+
+.end .rectangle-23 {
+  position: absolute;
+  width: 14px;
+  height: 11px;
+  top: 0;
+  left: 0;
+  background-color: #d9d9d9;
+}
+
+.end .group-11 {
+  position: absolute;
+  width: 106px;
+  height: 11px;
+  top: 1351px;
+  left: 361px;
+}
+
+.end .group-12 {
+  position: absolute;
+  width: 106px;
+  height: 11px;
+  top: 1371px;
+  left: 361px;
+}
+
+.end .group-13 {
+  position: absolute;
+  width: 106px;
+  height: 11px;
+  top: 1390px;
+  left: 361px;
+}
+
+.end .group-14 {
+  position: absolute;
+  width: 106px;
+  height: 11px;
+  top: 1410px;
+  left: 361px;
+}
+
+.end .group-15 {
+  position: absolute;
+  width: 106px;
+  height: 65px;
+  top: 1429px;
+  left: 361px;
+}
+
+.end .rectangle-24 {
+  position: absolute;
+  width: 32px;
+  height: 175px;
+  top: 1386px;
+  left: 609px;
+}
+
+.end .rectangle-25 {
+  position: absolute;
+  width: 36px;
+  height: 257px;
+  top: 1304px;
+  left: 633px;
+}
+
+.end .rectangle-26 {
+  position: absolute;
+  width: 36px;
+  height: 375px;
+  top: 1186px;
+  left: 655px;
+}
+
+.end .rectangle-27 {
+  position: absolute;
+  width: 66px;
+  height: 428px;
+  top: 1133px;
+  left: 691px;
+}
+
+.end .group-16 {
+  position: absolute;
+  width: 104px;
+  height: 67px;
+  top: 1422px;
+  left: 489px;
+}
+
+.end .group-17 {
+  position: absolute;
+  width: 104px;
+  height: 11px;
+  top: 1497px;
+  left: 489px;
+}
+
+.end .rectangle-28 {
+  width: 14px;
+  height: 11px;
+  left: 90px;
+  position: absolute;
+  top: 0;
+  background-color: #d9d9d9;
+}
+
+.end .rectangle-29 {
+  width: 14px;
+  height: 11px;
+  left: 68px;
+  position: absolute;
+  top: 0;
+  background-color: #d9d9d9;
+}
+
+.end .rectangle-30 {
+  width: 14px;
+  height: 11px;
+  left: 45px;
+  position: absolute;
+  top: 0;
+  background-color: #d9d9d9;
+}
+
+.end .group-18 {
+  position: absolute;
+  width: 47px;
+  height: 8px;
+  top: 1494px;
+  left: 243px;
+}
+
+.end .group-19 {
+  position: absolute;
+  width: 34px;
+  height: 8px;
+  top: 1508px;
+  left: 256px;
+}
+
+.end .group-20 {
+  position: absolute;
+  width: 21px;
+  height: 8px;
+  top: 1522px;
+  left: 269px;
+}
+
+.end .group-21 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  top: 1536px;
+  left: 282px;
+  background-color: #d9d9d9;
+}
+
+.end .rectangle-31 {
+  position: absolute;
+  width: 8px;
+  height: 265px;
+  top: 1293px;
+  left: 333px;
+  background-color: #000000;
+}
+
+.end .rectangle-32 {
+  position: absolute;
+  width: 8px;
+  height: 265px;
+  top: 1293px;
+  left: 320px;
+  background-color: #000000;
+}
+
+.end .rectangle-33 {
+  position: absolute;
+  width: 8px;
+  height: 265px;
+  top: 1293px;
+  left: 307px;
+  background-color: #000000;
+}
+
+.end .rectangle-34 {
+  position: absolute;
+  width: 8px;
+  height: 109px;
+  top: 1293px;
+  left: 294px;
+  background-color: #d9d9d9;
+}
+
+.end .rectangle-35 {
+  position: absolute;
+  width: 8px;
+  height: 268px;
+  top: 1293px;
+  left: 294px;
+  background-color: #000000;
+}
+
+.end .rectangle-36 {
+  position: absolute;
+  width: 8px;
+  height: 112px;
+  top: 1293px;
+  left: 281px;
+  background-color: #000000;
+}
+
+.end .rectangle-37 {
+  position: absolute;
+  width: 88px;
+  height: 5px;
+  top: 1456px;
+  left: 497px;
+  background-color: #d9d9d9;
+}
+
+.end .overlap-wrapper {
+  position: absolute;
+  width: 161px;
+  height: 461px;
+  top: 1107px;
+  left: 1197px;
+}
+
+.end .overlap-2 {
+  position: relative;
+  height: 461px;
+}
+
+.end .rectangle-38 {
+  position: absolute;
+  width: 74px;
+  height: 425px;
+  top: 33px;
+  left: 0;
+  background-color: #000000;
+}
+
+.end .rectangle-39 {
+  position: absolute;
+  width: 74px;
+  height: 227px;
+  top: 231px;
+  left: 47px;
+  background-color: #000000;
+}
+
+.end .rectangle-40 {
+  position: absolute;
+  width: 78px;
+  height: 461px;
+  top: 0;
+  left: 83px;
+  background-color: #000000;
+}
+
+.end .rectangle-41 {
+  position: absolute;
+  width: 8px;
+  height: 440px;
+  top: 1120px;
+  left: 1333px;
+  background-color: #0a0808cc;
+}
+
+.end .rectangle-42 {
+  position: absolute;
+  width: 8px;
+  height: 440px;
+  top: 1120px;
+  left: 1321px;
+  background-color: #0a0808cc;
+}
+
+.end .rectangle-43 {
+  position: absolute;
+  width: 8px;
+  height: 440px;
+  top: 1120px;
+  left: 1308px;
+  background-color: #0a0808cc;
+}
+
+.end .rectangle-44 {
+  position: absolute;
+  width: 8px;
+  height: 440px;
+  top: 1120px;
+  left: 1296px;
+  background-color: #0a0808cc;
+}
+
+.end .rectangle-45 {
+  position: absolute;
+  width: 7px;
+  height: 410px;
+  top: 1153px;
+  left: 1248px;
+  background-color: #0a0808cc;
+}
+
+.end .rectangle-46 {
+  position: absolute;
+  width: 7px;
+  height: 410px;
+  top: 1153px;
+  left: 1237px;
+  background-color: #0a0808cc;
+}
+
+.end .rectangle-47 {
+  position: absolute;
+  width: 7px;
+  height: 410px;
+  top: 1155px;
+  left: 1222px;
+  background-color: #0a0808cc;
+}
+
+.end .rectangle-48 {
+  position: absolute;
+  width: 7px;
+  height: 410px;
+  top: 1153px;
+  left: 1215px;
+  background-color: #0a0808cc;
+}
+
+.end .text-wrapper {
+  position: absolute;
+  width: 1181px;
+  top: 0;
+  left: 341px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #fdd400;
+  font-size: 128px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.end .rectangle-49 {
+  position: absolute;
+  width: 290px;
+  height: 11px;
+  top: 1549px;
+  left: 784px;
+  background-color: #000000;
+}
+
+.end .overlap-group-wrapper {
+  position: absolute;
+  width: 303px;
+  height: 335px;
+  top: 1236px;
+  left: 783px;
+}
+
+.end .overlap-3 {
+  position: relative;
+  height: 343px;
+}
+
+.end .ellipse {
+  position: absolute;
+  width: 303px;
+  height: 308px;
+  top: 0;
+  left: 0;
+  background-color: #000000;
+  border-radius: 151.5px/154px;
+}
+
+.end .ellipse-2 {
+  position: absolute;
+  width: 279px;
+  height: 284px;
+  top: 10px;
+  left: 12px;
+  background-color: #e7e027;
+  border-radius: 139.5px/142px;
+}
+
+.end .ellipse-3 {
+  position: absolute;
+  width: 177px;
+  height: 180px;
+  top: 57px;
+  left: 63px;
+  background-color: #000000;
+  border-radius: 88.5px/90px;
+}
+
+.end .line {
+  position: absolute;
+  width: 298px;
+  height: 8px;
+  top: 147px;
+  left: 1px;
+}
+
+.end .line-2 {
+  position: absolute;
+  width: 213px;
+  height: 213px;
+  top: 48px;
+  left: 42px;
+}
+
+.end .line-3 {
+  position: absolute;
+  width: 213px;
+  height: 213px;
+  top: 48px;
+  left: 47px;
+}
+
+.end .line-4 {
+  position: absolute;
+  width: 8px;
+  height: 298px;
+  top: 10px;
+  left: 149px;
+}
+
+.end .line-5 {
+  position: absolute;
+  width: 92px;
+  height: 183px;
+  top: 149px;
+  left: 75px;
+}
+
+.end .line-6 {
+  position: absolute;
+  width: 92px;
+  height: 183px;
+  top: 160px;
+  left: 139px;
+}
+
+.end .ellipse-4 {
+  position: absolute;
+  width: 68px;
+  height: 68px;
+  top: 110px;
+  left: 117px;
+  background-color: #fdd400;
+  border-radius: 34px;
+}
+
+.end .text-wrapper-2 {
+  position: absolute;
+  width: 313px;
+  top: 1207px;
+  left: 783px;
+  font-family: "IBM Plex Mono", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.end .rectangle-50 {
+  position: absolute;
+  width: 19px;
+  height: 16px;
+  top: 1394px;
+  left: 612px;
+  background-color: #d9d9d9;
+}
+
+.end .rectangle-51 {
+  position: absolute;
+  width: 19px;
+  height: 16px;
+  top: 1310px;
+  left: 636px;
+  background-color: #d9d9d9;
+}
+
+.end .rectangle-52 {
+  position: absolute;
+  width: 19px;
+  height: 16px;
+  top: 1192px;
+  left: 664px;
+  background-color: #d9d9d9;
+}
+
+.end .rectangle-53 {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: 1138px;
+  left: 696px;
+  background-color: #d9d9d9;
+}
+
+.end .rectangle-54 {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: 1138px;
+  left: 716px;
+  background-color: #d9d9d9;
+}
+
+.end .rectangle-55 {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: 1138px;
+  left: 736px;
+  background-color: #d9d9d9;
+}
+
+.end .rectangle-56 {
+  position: absolute;
+  width: 116px;
+  height: 355px;
+  top: 1223px;
+  left: 1371px;
+  background-color: #000000;
+}
+
+.end .overlap-4 {
+  position: absolute;
+  width: 73px;
+  height: 26px;
+  top: 1418px;
+  left: 118px;
+}
+
+.end .rectangle-57 {
+  position: absolute;
+  width: 73px;
+  height: 15px;
+  top: 11px;
+  left: 0;
+  background-color: #000000;
+}
+
+.end .rectangle-58 {
+  position: absolute;
+  width: 56px;
+  height: 15px;
+  top: 0;
+  left: 8px;
+  background-color: #000000;
+}
+
+.end .rectangle-59 {
+  position: absolute;
+  width: 15px;
+  height: 14px;
+  top: 922px;
+  left: 1432px;
+  background-color: #e7e027;
+}
+
+.end .overlap-5 {
+  position: absolute;
+  width: 75px;
+  height: 196px;
+  top: 1364px;
+  left: 1109px;
+}
+
+.end .group-22 {
+  position: absolute;
+  width: 75px;
+  height: 196px;
+  top: 0;
+  left: 0;
+}
+
+.end .overlap-group-2 {
+  position: absolute;
+  width: 75px;
+  height: 179px;
+  top: 17px;
+  left: 0;
+}
+
+.end .rectangle-60 {
+  position: absolute;
+  width: 75px;
+  height: 164px;
+  top: 15px;
+  left: 0;
+  background-color: #000000;
+}
+
+.end .rectangle-61 {
+  position: absolute;
+  width: 65px;
+  height: 20px;
+  top: 0;
+  left: 5px;
+  background-color: #000000;
+}
+
+.end .rectangle-62 {
+  position: absolute;
+  width: 55px;
+  height: 17px;
+  top: 0;
+  left: 10px;
+  background-color: #000000;
+}
+
+.end .group-23 {
+  position: absolute;
+  width: 48px;
+  height: 146px;
+  top: 24px;
+  left: 13px;
+}
+
+.end .group-24 {
+  position: absolute;
+  width: 48px;
+  height: 15px;
+  top: 0;
+  left: 0;
+}
+
+.end .rectangle-63 {
+  width: 6px;
+  height: 15px;
+  left: 42px;
+  position: absolute;
+  top: 0;
+  background-color: #d9d9d9;
+}
+
+.end .rectangle-64 {
+  width: 6px;
+  height: 15px;
+  left: 31px;
+  position: absolute;
+  top: 0;
+  background-color: #d9d9d9;
+}
+
+.end .rectangle-65 {
+  width: 6px;
+  height: 15px;
+  left: 21px;
+  position: absolute;
+  top: 0;
+  background-color: #d9d9d9;
+}
+
+.end .rectangle-66 {
+  position: absolute;
+  width: 6px;
+  height: 15px;
+  top: 0;
+  left: 10px;
+  background-color: #d9d9d9;
+}
+
+.end .rectangle-67 {
+  position: absolute;
+  width: 6px;
+  height: 15px;
+  top: 0;
+  left: 0;
+  background-color: #d9d9d9;
+}
+
+.end .group-25 {
+  position: absolute;
+  width: 48px;
+  height: 15px;
+  top: 26px;
+  left: 0;
+}
+
+.end .group-26 {
+  position: absolute;
+  width: 48px;
+  height: 15px;
+  top: 52px;
+  left: 0;
+}
+
+.end .group-27 {
+  position: absolute;
+  width: 48px;
+  height: 15px;
+  top: 79px;
+  left: 0;
+}
+
+.end .group-28 {
+  position: absolute;
+  width: 48px;
+  height: 15px;
+  top: 105px;
+  left: 0;
+}
+
+.end .group-29 {
+  position: absolute;
+  width: 48px;
+  height: 15px;
+  top: 131px;
+  left: 0;
+}
+
+.end .overlap-6 {
+  position: absolute;
+  width: 90px;
+  height: 68px;
+  top: 1155px;
+  left: 1384px;
+}
+
+.end .rectangle-68 {
+  position: absolute;
+  width: 90px;
+  height: 39px;
+  top: 29px;
+  left: 0;
+  background-color: #000000;
+}
+
+.end .rectangle-69 {
+  position: absolute;
+  width: 67px;
+  height: 39px;
+  top: 0;
+  left: 11px;
+  background-color: #000000;
+}
+
+.end .text-wrapper-3 {
+  position: absolute;
+  width: 825px;
+  top: 89px;
+  left: -19px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 96px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}

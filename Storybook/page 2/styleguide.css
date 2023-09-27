@@ -1,0 +1,8 @@
+:root {
+  --variable-collection-grey: rgba(152, 152, 152, 1);
+  --variable-collection-pink: rgba(255, 133, 243, 1);
+  --variable-collection-tan: rgba(255, 216, 169, 1);
+  --variable-collection-yellow: rgba(233, 249, 55, 1);
+  --variable-collection-blue: rgba(0, 163, 255, 1);
+  --variable-collection-green: rgba(0, 200, 140, 1);
+}

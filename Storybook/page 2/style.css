@@ -1,0 +1,149 @@
+.middle {
+  background-color: rgba(255, 255, 255, 1);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.middle .div {
+  background-color: rgba(255, 255, 255, 1);
+  overflow: hidden;
+  background: linear-gradient(
+    180deg,
+    rgba(12.59, 31.17, 52.99, 0.71) 18.75%,
+    rgba(12.59, 31.17, 52.99, 0.47) 65.1%,
+    rgba(12.59, 31.17, 52.99, 0) 84.9%
+  );
+  width: 1444px;
+  height: 933px;
+  position: relative;
+}
+
+.middle .rectangle {
+  position: absolute;
+  width: 1199px;
+  height: 355px;
+  top: 638px;
+  left: 1491px;
+  background-color: #0a0808cc;
+}
+
+.middle .overlap-group {
+  position: absolute;
+  width: 1448px;
+  height: 803px;
+  top: 287px;
+  left: -23px;
+}
+
+.middle .rectangle-2 {
+  position: absolute;
+  width: 1200px;
+  height: 390px;
+  top: 214px;
+  left: 143px;
+  background-color: #0a0808cc;
+}
+
+.middle .rectangle-3 {
+  position: absolute;
+  width: 1448px;
+  height: 211px;
+  top: 592px;
+  left: 0;
+  background-color: #000000;
+}
+
+.middle .group {
+  position: absolute;
+  width: 1131px;
+  height: 347px;
+  top: 257px;
+  left: 163px;
+}
+
+.middle .polygon {
+  position: absolute;
+  width: 1053px;
+  height: 526px;
+  top: 113px;
+  left: 211px;
+}
+
+.middle .group-2 {
+  position: absolute;
+  width: 1320px;
+  height: 156px;
+  top: 78px;
+  left: 63px;
+}
+
+.middle .rectangle-4 {
+  position: absolute;
+  width: 1320px;
+  height: 76px;
+  top: 0;
+  left: 0;
+  background-color: #000000;
+}
+
+.middle .rectangle-5 {
+  position: absolute;
+  width: 1320px;
+  height: 66px;
+  top: 90px;
+  left: 0;
+  background-color: #000000;
+}
+
+.middle .rectangle-6 {
+  position: absolute;
+  width: 1320px;
+  height: 66px;
+  top: 0;
+  left: 63px;
+  background-color: #000000;
+}
+
+.middle .text-wrapper {
+  position: absolute;
+  width: 1201px;
+  top: 27px;
+  left: 128px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 128px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.middle .text-wrapper-2 {
+  position: absolute;
+  width: 313px;
+  top: 355px;
+  left: 570px;
+  font-family: "IBM Plex Mono", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.middle .text-wrapper-3 {
+  position: absolute;
+  width: 505px;
+  top: 239px;
+  left: 449px;
+  font-family: "IBM Plex Mono", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
