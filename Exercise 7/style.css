@@ -12,7 +12,8 @@ h1 {
     font-size: clamp(32px, 10vw, 100px);
     color: white;
     font-family: "fit-variable", sans-serif;
-    font-variation-settings: "wdth" 482;
+    font-variation-settings: "wdth" 1500;
+    position: static;
 
 }
 
@@ -34,7 +35,10 @@ img {
 
     h1 {
         color: rgb(255, 255, 255);
-        font-size: 200px;
+        font-variation-settings: "wdth"1000;
+        font-weight: bolder;
+        font-size: 100;
+        
     }
 }
 
@@ -45,6 +49,9 @@ img {
 
     h1 {
         color: rgb(0, 0, 0);
+        font-variation-settings: "wdth"700;
+        font-weight: 900;
+
     }
 }
 
@@ -55,7 +62,8 @@ img {
 
     h1 {
         color: rgb(255, 255, 255);
-        
+        font-variation-settings: "wdth"400;
+        font-weight: 600;
     }
 }
 
@@ -67,6 +75,8 @@ img {
     h1 {
         color: rgb(255, 0, 0);
         display: none;
+        font-variation-settings: "wdth"300;
+        font-weight: 100;
     }
 
     img {
