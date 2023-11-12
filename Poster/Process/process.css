@@ -1,0 +1,107 @@
+ /* Move all CSS to a stylesheet */
+ * {
+    /* Remove default browser spacing */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 100px;
+    /* Add spacing around the entire page */
+    font-size: 12px;
+    /* Setting baseline font size */
+    font-family: Avenir;
+}
+
+ol {
+    padding-left: 50px;
+    font-size: 18px;
+}
+
+/* Start of text sizes */
+h1 {
+    font-size: 4em;
+    font-family: Avenir;
+}
+
+h2 {
+    font-size: 3em;
+    font-family: Avenir;
+}
+
+p {
+    font-size: 2em;
+    line-height: 1.5em;
+    font-family: Avenir;
+}
+
+
+figcaption {
+    font-size: 1.25em;
+    font-family: Avenir;
+}
+
+
+
+/* End of text sizes */
+
+/* Start of spacing and layout */
+h2,
+p,
+figure,
+figcaption {
+    margin-bottom: 40px;
+}
+
+img {
+    margin-bottom: 10px;
+}
+
+.process-template {
+    width: 60%;
+    /* Set the width of the template to 60% of the viewport. */
+    margin: auto;
+    /* Center align the template by adding auto margins to the left and right */
+}
+
+.title {
+    margin-bottom: 100px;
+    /* Add spacing to the bottom of the title div */
+}
+
+.section {
+    margin-bottom: 100px;
+}
+
+/* End of spacing and layout */
+#buttonPositionIndex {
+    position: fixed;
+    bottom: -4px;
+    right: 10px;
+}
+
+#buttonPosition {
+    position: fixed;
+    bottom: -4px;
+    left: 10px;
+}
+
+button {
+    background-color: #ff0000;
+    color: #fff;
+    font-size: 16px;
+    font-family: Avenir;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    /* Add a smooth transition */
+
+}
+
+button:hover {
+    background-color: #000000;
+    /* Change the background color on hover */
+    
+}
