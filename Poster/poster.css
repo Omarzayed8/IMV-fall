@@ -80,7 +80,7 @@ h1 {
 }
 
 h2{
-    font-size: clamp(32px, 10vw, 80px);
+    font-size: clamp(32px, 10vw, 70px);
     color: rgb(255, 255, 255);
     font-family: "fit-variable", sans-serif;
     text-align: left;
@@ -88,7 +88,7 @@ h2{
     margin-bottom: 0px;
     padding-top: 20px;
     margin-right: 10px;
-   font-variation-settings: "wdth" 300;
+   font-variation-settings: "wdth" 430;
 
 }
 
