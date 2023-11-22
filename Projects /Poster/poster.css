@@ -68,42 +68,52 @@ p2{
 }
 
 h1 {
-    font-size: clamp(32px, 10vw, 100px);
+    font-size: clamp(32px, 20vw, 140px);
     color: rgb(255, 0, 0);
-    font-family: "fit-variable", sans-serif;
     text-align: center;
     margin-top: 0em;
     margin-bottom: 0;
     margin-right: 3;
-   font-variation-settings: "wdth" 1000;
+    font-family: "fit-wide", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 400;
 }
 
+
+
 h2{
-    font-size: clamp(32px, 10vw, 70px);
+    font-size: clamp(32px, 10vw, 50px);
     color: rgb(255, 255, 255);
-    font-family: "fit-variable", sans-serif;
+    font-family: "fit-wide", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     text-align: left;
     margin-top: 10px;
     margin-bottom: 0px;
     padding-top: 20px;
-    margin-right: 10px;
+    margin-right: 5px;
    font-variation-settings: "wdth" 430;
+   letter-spacing: 1px;
 
 }
 
 h3{
-    font-size: clamp(32px, 10vw, 80px);
+    font-size: clamp(32px, 10vw, 50px);
     color: rgb(255, 255, 255);
-    font-family: "fit-variable", sans-serif;
+    font-family: "fit-wide", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     text-align: right;
     margin-top: 10px;
     margin-bottom: 10px;
     margin-right: 10px;
    font-variation-settings: "wdth" 300;
    padding-top: 40px;
+   letter-spacing: 1px;
 }
 h4{
-    font-size: clamp(32px, 10vw, 80px);
+    font-size: clamp(32px, 10vw, 70px);
     color: rgb(18, 135, 0);
     text-align: center;
     margin-top: 0em;
@@ -119,7 +129,7 @@ h5{
     font-size: clamp(32px, 10vw, 70px);
     color: rgb(18, 135, 0);
     text-align: center;
-    margin-top: -1em;
+    margin-top: -60px;
     margin-bottom: 0;
     margin-right: 3;
    font-variation-settings: "wdth" 1000;
@@ -151,6 +161,7 @@ a {
     color: white;
     text-decoration: none;
     transition-duration: 0.5ms;
+    text-decoration: underline;
 
     &:hover {
         color: #E31B23;
@@ -163,6 +174,8 @@ a {
     color: white;
     text-decoration: none;
     transition-duration: 0.5ms;
+    margin-bottom: 100px;
+   
 
     &:hover {
         color: #ff0000;
