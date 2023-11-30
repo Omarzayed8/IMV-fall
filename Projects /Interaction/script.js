@@ -31,7 +31,7 @@ function startTimer() {
 function sResponse() {
   click++;
   popupResponse.innerHTML = startResponse[click];
-  if (click === 4) {
+  if (click ===3) {
     popupDiv.style.display = "none";
     for (let i = 0; i < cubes.length; i++) {
       cubes[i].style.display = "flex";
