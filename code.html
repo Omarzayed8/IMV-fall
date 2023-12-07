@@ -5,168 +5,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Index</title>
-    <style>
-        html,
-        body {
-            margin: 0;
-            padding: 0;
-            height: 200vh;
-        }
 
-        .section {
-            height: 25%;
-            /* Each section is 25% of the viewport height */
-            width: 100%;
-        }
+    <link rel="stylesheet" href="style1.css">
 
-        /* Assign different background colors for visualization */
-        #section1 {
-            background-color: #000000;
-        }
-
-        #section2 {
-            background-color: #000000;
-        }
-
-        #section3 {
-            background-color: #000000;
-        }
-
-        #section4 {
-            background-color: #000000;
-        }
-
-        .oval {
-            width: 600px;
-            height: 300px;
-            align-items: center;
-            border: 2px solid white;
-            border-radius: 50%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
-        h {
-            color: rgb(255, 255, 255);
-            font-family: 'Courier New', Courier, monospace;
-            font-size: 100px;
-            margin: 0; /* Remove default margin */
-            font-weight: bold;
-
-        }
-
-        p {
-            color: white;
-            font-family: 'Courier New', Courier, monospace;
-            font-size: 40px;
-        }
-
-        nav {
-            background-color: #000000;
-            overflow: hidden;
-        }
-
-        nav a {
-            float: right;
-            display: block;
-            color: rgb(255, 255, 255);
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-            font-family: monospace;
-        }
-
-        nav a:hover {
-           
-            color: rgb(255, 0, 0);
-        }
-
-        .container {
-            height: 100vh;
-            /* Adjust to your content height */
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
-        .content {
-            font-size: 36px;
-            transform: rotate(0deg);
-            /* transition: transform 0.5s ease;
-            will-change: transform; */
-            /* For better performance when animating */
-            text-align: center;
-            margin: 0; /* Remove default margin */
-        }
-
-        .section {
-            min-height: 100vh;
-            /* 100% of the viewport height */
-            width: 100%;
-            /* Optional: add transition for smooth loading */
-            /* transition: opacity 1s ease-out; */
-            opacity: 0;
-            /* Initialize sections as invisible */
-        }
-
-        /* Style for section that should be shown */
-        .section.show {
-            opacity: 100%;
-        }
-
-        #section1 {
-            opacity: 100%;
-        }
-
-        pl2 {
-            margin-top: 0px;
-            margin-bottom: 0px;
-            color: white;
-            font-family: monospace;
-            font-size: 30px;
-            padding-left: 500px;
-            margin: 20px;
-            border-right: 1000px;
-            text-align: left;
-            display: flex;
-            font-variation-settings: "wdth" 300;
-        }
-
-        .Readinglist-2-link {
-            color: white;
-            text-decoration: none;
-            transition-duration: 0.5ms;
-            margin-bottom: 100px;
-        }
-
-        &:hover {
-            color: #ff0000;
-            opacity: 100%;
-        }
-
-        /* Style for the Locomotive Scroll container */
-        [data-scroll-container] {
-            position: relative;
-            will-change: transform;
-        }
-        
-    </style>
-    
 </head>
 
 <body data-scroll-container>
     <header>
         <nav>
             <a href="#blogs">Blogs</a>
-            <a href="#projects">Projects</a>
+            <a href="#projects">Process</a>
         </nav>
     </header>
 
     <script src="https://cdn.jsdelivr.net/npm//locomotive-scroll/dist/locomotive-scroll.min.js"></script>
-    <script src="script.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
-
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
 
     <div id="section1" class="section">
         <div class="container">
@@ -174,133 +28,88 @@
                 <div class="oval">
                     <div>
                         <h>Welcome To</h>
+                        <h1>زيتون</h1>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div id="section2" class="section">
-        <h>projects</h>
-        <pl2> <a href="https://omarzayed8.github.io/IMV-fall/Projects%20/Storybook/Page%201/index.html"
-                target="_blank"> <span class="Readinglist-link">Storybook</span></a></pl2>
-                <pl2 class="pl2">
-                    <a href="https://omarzayed8.github.io/IMV-fall/Projects%20/Storybook/Page%201/index.html" target="_blank">
-                        <span class="Readinglist-link">
-                            <img src="file:///Users/omarzayed/Desktop/GDES%20/gith/IMV%20FALL/Animation.png" alt="Your Image Alt Text">
-                        </span>
-                    </a>
-                </pl2>
-        </section>
-        <pl2> <a href="https://omarzayed8.github.io/IMV-fall/Projects%20/Poster/poster.html"
-                target="_blank"> <span class="Readinglist-link">Poster</span></a></pl2>
-        </section>
-        <pl2> <a href="https://omarzayed8.github.io/IMV-fall/Projects%20/Interaction/Interaction.html"
-                target="_blank"> <span class="Readinglist-link">Interaction</span></a></pl2>
-        </section>
-    </div>
-    <div id="section3" class="section">
-        <h>Readings<br></h>
-        <pl2> <a href="https://omarzayed8.github.io/IMV-fall/Readings/Reading1/r1.html">A Handmade web</span></a></pl2>
-        </section>
-        <pl2> <a href="https://omarzayed8.github.io/IMV-fall/Readings/Reading2/reading2.html"
-                target="_blank"> <span class="Readinglist-link">What Screens want</span></a></pl2>
-        </section>
-        <pl2> <a href="https://omarzayed8.github.io/IMV-fall/Readings/Reading3/reading3.html"
-                target="_blank"> <span class="Readinglist-link">Interfcae and Interpretations</span></a></pl2>
-        </section>
-        <pl2> <a href="https://omarzayed8.github.io/IMV-fall/Readings/Reading%204/Reading4.html"
-                target="_blank"> <span class="Readinglist-link">Database a Symbolic Form</span></a></pl2>
-        </section>
-        <pl2> <a href="https://omarzayed8.github.io/IMV-fall/Readings/Reading5/reading%205.html"
-                target="_blank"> <span class="Readinglist-link">My website is shifting house</span></a></pl2>
-        </section>
-    </div>
-    <div id="section4" class="section">
-        <h>Exercise</h>
-        <pl2> <a href="https://omarzayed8.github.io/IMV-fall/IMV%20FALL/Exericses/Exercise%202/Painting%202.html"
-                target="_blank"> <span class="Readinglist-link">E2:Grid </span></a></pl2>
-        </section>
-        <pl2> <a href="https://omarzayed8.github.io/IMV-fall/Exericses/Exercise%203/Fonts.html"
-                target="_blank"> <span class="Readinglist-link">E3:Fonts and animations </span></a></pl2>
-        </section>
-        <pl2> <a href="https://omarzayed8.github.io/IMV-fall/Exericses/Exercise%205/Flexbox.html"
-                target="_blank"> <span class="Readinglist-link">E4:Javascript</span></a></pl2>
-        </section>
-        <pl2> <a href="https://omarzayed8.github.io/IMV-fall/Exericses/Exericse%206/Jquery.html"
-                target="_blank"> <span class="Readinglist-link">E6:JQuery</E6:JQuery></span></a></pl2>
-        </section>
-        <pl2> <a href="https://omarzayed8.github.io/IMV-fall/Exericses/Exercise%207/Reponsiveness.html"
-                target="_blank"> <span class="Readinglist-link">E7:Responsiveness</span></a></pl2>
-        </section>
-        <pl2> <a href="https://omarzayed8.github.io/IMV-fall/Exericses/Exericse%208/Json.html"
-                target="_blank"> <span class="Readinglist-link">E8:Json</span></a></pl2>
+    <div id="section2" class="section" >
+        <h>Projects</h>
+        <pl4> Main projects </pl4>
+        <div>
+            <pl3><a style="text-decoration:none" href="https://omarzayed8.github.io/IMV-fall/Projects%20/Storybook/Page%201/index.html"
+                    target="_blank"><span class="Readinglist-link">Storybook</span><img src="Images /pngwing.com.png"
+                        alt="Smiley face" width="20px" height="150px"></a></pl3>
 
-        <pl2 class="pl2"> <a href="https://omarzayed8.github.io/IMV-fall/Projects%20/Storybook/Page%201/index.html"
-        target="_blank"> <span class="Readinglist-link">hellllllo</span></a></pl2>
 
-       
-<!-- Repeat for other pl2 elements -->
+            <pl3><a style="text-decoration:none" href="https://omarzayed8.github.io/IMV-fall/Projects%20/Storybook/Page%201/index.html"
+                    target="_blank"> <span class="Readinglist-link">Poster   </span><img src="Images /Watermelon.png"
+                        alt="Smiley face" width="100px" height="200px" oppsi style="vertical-align:middle"></a></pl3>
 
-    </div>
-    <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            const scroll = new LocomotiveScroll({
-                el: document.querySelector('[data-scroll-container]'),
-                smooth: true,
-                multiplier: 5 // Adjust the speed of scrolling
-                // You can add more options as needed
-            });
-        })
-    
-            // Function to animate the pl2 elements
-            function animatePl2Elements() {
-                anime({
-                    targets: '.pl2',
-                    opacity: [0, 1],
-                    translateY: [20, 0],
-                    duration: 10000,
-                    delay: anime.stagger(200),
-                });
-            }
-    
-            // Call the animation function when the page is loaded
-            animatePl2Elements();
-    
-            window.addEventListener('scroll', function () {
-    var element = document.querySelector('.content');
-    var bounding = element.getBoundingClientRect();
+            <pl3><a style="text-decoration:none" href="https://omarzayed8.github.io/IMV-fall/Projects%20/Storybook/Page%201/index.html"
+                    target="_blank"> <span class="Readinglist-link">Interaction  </span><img
+                        src="Images /key.png" alt="Smiley face" width="50px" height="100px"
+                        style="vertical-align:middle"></a></pl3>
 
-    // Check if the element is in the first section and halfway visible
-    if (bounding.bottom < window.innerHeight / 1.5 && bounding.bottom > window.innerHeight / 3) {
-        element.style.transform = 'rotate(170deg)';
-    } 
-    // Check if the element is in the second section
-    else if (bounding.bottom < window.innerHeight / 1.8) {
-        element.style.transform = 'rotate(-190deg)';
-    } 
-    // If the element is in neither section, set a default rotation
-    else {
-        element.style.transform = 'rotate(0deg)';
-    }
-});
+        </div>
+        <div>
+        </div>
 
-            window.addEventListener('scroll', () => {
-                document.querySelectorAll('.section').forEach((section, index) => {
-                    const sectionTop = section.getBoundingClientRect().top;
-                    const isVisible = sectionTop < window.innerHeight && sectionTop >= 0;
-                    if (isVisible) {
-                        section.classList.add('show');
-                        // Call the animation function when a section becomes visible
-                        animatePl2Elements();
-                    }
-                });
-            });
-          
-      
 
-        </script>
-        
-    
+        <div id="section3" class="section">
+            <h>Readings<br></h>
+            <pl6> PDF,Articles,Discussions</pl6>
+            <pl2> <a style="text-decoration:none" href="https://omarzayed8.github.io/IMV-fall/Readings/Reading1/r1.html"
+                    target="_blank"> <span class="Readinglist-link">A Handmade web</a></pl2>
+
+            <pl2> <a style="text-decoration:none" href="https://omarzayed8.github.io/IMV-fall/Readings/Reading2/reading2.html"
+                    target="_blank"> <span class="Readinglist-link">What Screens want</span></a></pl2>
+
+            <pl2> <a style="text-decoration:none" href="https://omarzayed8.github.io/IMV-fall/Readings/Reading3/reading3.html"
+                    target="_blank"> <span class="Readinglist-link">Interfcae and Interpretations</span></a></pl2>
+
+            <pl2> <a style="text-decoration:none" style="text-decoration:none"
+                    href="https://omarzayed8.github.io/IMV-fall/Readings/Reading%204/Reading4.html" target="_blank"> <span
+                        class="Readinglist-link">Database a Symbolic Form</span></a></pl2>
+
+            <pl2> <a style="text-decoration:none" style="text-decoration:none"
+                    href="https://omarzayed8.github.io/IMV-fall/Readings/Reading5/reading%205.html" target="_blank"> <span
+                        class="Readinglist-link">My website is shifting house</span></a></pl2>
+
+        </div>
+        <div id="section4" class="section">
+            <h>Exercise</h>
+            <pl4> Quick and fast tasks</pl4>
+            <pl3> <a style="text-decoration:none"
+                    href="https://omarzayed8.github.io/IMV-fall/IMV%20FALL/Exericses/Exercise%202/Painting%202.html"
+                    target="_blank"> <span class="Readinglist-link">E2:Grid </span></a></pl3>
+
+            <pl3> <a style="text-decoration:none"
+                    href="https://omarzayed8.github.io/IMV-fall/Exericses/Exercise%203/Fonts.html" target="_blank"> <span
+                        class="Readinglist-link">E3:Fonts and animations </span></a></pl3>
+
+            <pl3> <a style="text-decoration:none"
+                    href="https://omarzayed8.github.io/IMV-fall/Exericses/Exercise%205/Flexbox.html" target="_blank"> <span
+                        class="Readinglist-link">E4:Javascript</span></a></pl3>
+            <pl3> <a style="text-decoration:none"
+                    href="https://omarzayed8.github.io/IMV-fall/Exericses/Exericse%208/Json.html" target="_blank"> <span
+                        class="Readinglist-link">E5:Json</span></a></pl3>
+
+            <pl3> <a style="text-decoration:none" href="https://omarzayed8.github.io/IMV-fall/Exericses/Exericse%206/Jquery.html"
+                    target="_blank"> <span class="Readinglist-link">E6:JQuery</E6:JQuery></span></a></pl3>
+
+            <pl3> <a style="text-decoration:none"
+                    href="https://omarzayed8.github.io/IMV-fall/Exericses/Exercise%207/Reponsiveness.html" target="_blank">
+                    <span class="Readinglist-link">E7:Responsiveness</span></a></pl3>
+
+            <pl3> <a style="text-decoration:none"
+                    href="https://omarzayed8.github.io/IMV-fall/Exericses/Exericse%208/Json.html" target="_blank"> <span
+                        class="Readinglist-link">E8:Json</span></a></pl3>
+        </div>
+
+        <script src="index.js"></script>
+
 </body>
 
 </html>

@@ -1,0 +1,260 @@
+        html,
+         body {
+            margin: 0;
+            padding: 0;
+            height: 200vh;
+            background-color: #000000;
+            
+        }
+
+        .section {
+            height: 25%;
+            /* Each section is 25% of the viewport height */
+            width: 50%;
+            
+        }
+
+        /* Assign different background colors for visualization */
+        #section1 {
+            background-color: #000000;
+            
+        }
+
+
+        #section2 {
+            background-color: #5f0000;
+            height:200vh
+            
+        }
+
+        #section3 {
+            background-color: #000000;
+        }
+
+        #section4 {
+            background-color: #5f0000;
+        }
+
+        .oval {
+            width: 600px;
+            height: 300px;
+            align-items: center;
+            border: 2px solid white;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        h {
+            color: rgb(255, 255, 255);
+            font-family:'Frankt';
+            font-size: 100px;
+            margin: 0; /* Remove default margin */
+            font-weight: bold;
+            padding-right: 0px;
+
+        }
+
+        p {
+            color: white;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 40px;
+        }
+
+        nav {
+            background-color: #000000;
+            overflow: hidden;
+        }
+
+        nav a {
+            float: right;
+            display: block;
+            color: rgb(255, 255, 255);
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-family:'Frankt';
+        }
+
+        nav a:hover {
+           
+            color: rgb(255, 0, 0);
+        }
+       
+
+        .container {
+            height: 100vh;
+            /* Adjust to your content height */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .content {
+            font-size: 36px;
+            transform: rotate(0deg);
+            transition: transform 1s ease;
+            will-change: transform;
+            /* For better performance when animating */
+            text-align: center;
+            margin: 100px; /* Remove default margin */
+        }
+
+        .section {
+            min-height: 100vh;
+            /* 100% of the viewport height */
+            width: 100%;
+            /* Optional: add transition for smooth loading */
+            transition: opacity 1s ease-out;
+            opacity: 2;
+            /* Initialize sections as invisible */
+        }
+
+        /* Style for section that should be shown */
+        .section.show {
+            opacity: 100%;
+        }
+
+        #section1 {
+            opacity: 100%;
+        }
+        
+
+        pl2 {
+            margin-top: 30px;
+            margin-bottom: 0px;
+            color: white;
+            font-family: 'kurdish';
+            font-size: 30px;
+            padding-left: 900px;
+            margin-left: 10px;
+            text-align: left;
+            display: flex;
+            z-index: 1;
+            font-weight: lighter;
+        }
+        pl3 {
+           
+            margin-bottom: 0px;
+            color: white;
+            font-family: 'kurdish';
+            font-size: 30px;
+            
+            margin-left: 800px;
+            text-align: left;
+            display: flex;
+            z-index: 1;
+            padding-bottom: 20px;
+            padding-top: 10px;
+            position: inherit;;
+            
+
+
+        }
+        pl3 {
+           
+            margin-bottom: 0px;
+            color: white;
+            font-family: 'kurdish';
+            font-size: 30px;
+            
+            margin-left: 800px;
+            text-align: left;
+            display: flex;
+            z-index: 1;
+            padding-bottom: 20px;
+            padding-top: 10px;
+            position: inherit;;
+            
+
+
+        }
+
+        pl4 {
+           
+            margin-bottom: 0px;
+            color: rgb(0, 120, 12);
+            font-family: 'kurdish';
+            font-size: 50px;
+            margin-left: 200px;
+            text-align: left;
+            display: flex;
+            z-index: 1;
+            padding-bottom: 10px;
+            padding-top: 20px;
+
+
+        }
+        pl6{
+           
+            margin-bottom: 0px;
+            color: rgb(0, 120, 12);
+            font-family: 'kurdish';
+            font-size: 50px;
+            margin-left: 200px;
+            text-align: left;
+            display: flex;
+            z-index: 1;
+            padding-bottom: 10px;
+            padding-top: 20px;
+
+
+        }
+       
+       
+     
+
+       
+
+        
+        /* Style for the Locomotive Scroll container */
+        [data-scroll-container] {
+            position: relative;
+            will-change: transform;
+        }
+        .image{
+            margin:0;
+            padding:left;
+
+        }
+        
+        
+        .Readinglist-link {
+         color: white;
+           
+         transition-duration: 0.5ms;
+            &:hover {
+         color: #ff0000;
+         opacity: 80%;
+        
+         }
+        }
+        h1 {
+            color: rgb(43, 113, 0);
+            font-family: 'lifta';
+            font-size: 100px;
+            margin: 0; /* Remove default margin */
+            font-weight: bold;
+            padding-right: 1000px;
+
+        }
+        @font-face {
+    font-family: 'lifta';
+    src: url(Fonts/Lifta-Stencil.woff2);
+    }
+        @font-face {
+    font-family: 'Frankt';
+    src: url(Fonts/refrankt-font-family-1701873368-0/Trial-Refrankt-Bold-BF656fea1bb4393.otf);
+        }
+
+     @font-face {
+        font-family: 'kurdish';
+           src: url(Fonts/kurdis-font-family-1701880596-0/KurdisVariableFamilyTest-Condensed-BF64bf41dfe7ff5.otf);
+        }
+
+
+       
+
+        
+   

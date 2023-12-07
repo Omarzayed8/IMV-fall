@@ -157,20 +157,10 @@ body {
     height: 200vh;    
 }
 
-a {
-    color: white;
-    text-decoration: none;
-    transition-duration: 0.5ms;
-    text-decoration: underline;
-
-    &:hover {
-        color: #E31B23;
-        opacity: 80%;
-    }
-}
 
 
-.Readinglist-2-link {
+
+.Readinglist-link {
     color: white;
     text-decoration: none;
     transition-duration: 0.5ms;
