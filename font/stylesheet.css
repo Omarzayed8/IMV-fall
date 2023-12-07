@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'Lifta Stencil';
+    src: url('Lifta-Stencil.eot');
+    src: local('Lifta Stencil'), local('Lifta-Stencil'),
+        url('Lifta-Stencil.eot?#iefix') format('embedded-opentype'),
+        url('Lifta-Stencil.woff2') format('woff2'),
+        url('Lifta-Stencil.woff') format('woff'),
+        url('Lifta-Stencil.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lifta';
+    src: url('Lifta-Black.eot');
+    src: local('Lifta Black'), local('Lifta-Black'),
+        url('Lifta-Black.eot?#iefix') format('embedded-opentype'),
+        url('Lifta-Black.woff2') format('woff2'),
+        url('Lifta-Black.woff') format('woff'),
+        url('Lifta-Black.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
