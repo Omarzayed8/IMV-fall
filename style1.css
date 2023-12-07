@@ -119,6 +119,27 @@
         #section1 {
             opacity: 100%;
         }
+        .scroll-down {
+            position: relative; 
+            bottom: 100px;
+            left: 53%;
+            transform: translate(-50%, 0);
+            color: rgb(255, 255, 255);
+            font-weight: 400;
+            text-transform: uppercase;
+            font-size: 16px;
+            overflow: visible;
+            font-family: "Frankt";
+          }
+          .scroll-down .arrow {
+            position: relative;
+            top: -4px;
+            margin: 0 auto;
+            width: 20px;
+            height: 20px;
+            background-image: url(https://omarzayed8.github.io/IMV-fall/IMV%20FALL/Images%20/Scroll.png);
+            background-size: contain;
+          }
         
 
         pl2 {
